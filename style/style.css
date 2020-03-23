@@ -1,0 +1,86 @@
+/*font-family: 'Roboto', sans-serif;*/
+
+.brands .col-md-4{
+	margin-top: 30px;
+}
+
+
+.brands .col-md-4 div{
+	padding: 15px 10px 15px 15px;
+	border: 1px solid  #a99a9a36;
+	transition: .3s ease-in-out;
+	border-radius: 10px;
+}
+.brands .col-md-4 div:hover{
+	transform: scale(1.1);
+	filter: brightness(.1);
+}
+
+/*expience start*/
+.brands .exp-logo img{
+	margin: 30px -28px 0px 29px;
+}
+.brands .exp-logo, .exp-year{
+	display: inline-block;
+	font-size: 84px;
+    font-weight: 700;
+    margin-left: -22px;
+    color: #bec54c;
+    height: 20px;
+}
+.col-md-6 .span{
+	color: #259a8a;
+    display: grid;
+    font-size: 40px;
+    font-weight: 700;
+}
+/*project_showcase*/
+.project_section{
+	padding: 6rem 0;
+}
+.project_section .button-section button{
+	border: none; 
+	background-color: #fff;
+	margin-right: 55px;
+	text-transform: uppercase;
+}
+.button-section button {
+	outline: none!important;
+}
+/*review strat */
+.reviews{
+	width: 100%;
+	margin: 0 auto; 
+	padding: 40px 0;
+
+}
+.reviews .reviews_slide{
+	width: 92%;
+	margin: 31px auto; 
+	padding: 3px 0;
+	background-color: #8a828224;
+	-webkit-box-shadow: 11px 9px 34px -9px rgba(0,0,0,0.61);
+	-moz-box-shadow: 11px 9px 34px -9px rgba(0,0,0,0.61);
+	box-shadow: 11px 9px 34px -9px rgba(0,0,0,0.61);
+}
+.reviews .reviews_slide .col-md-8{
+	margin: 17px 0px;
+}
+.reviews .reviews_slide .col-md-8 h4{
+	font-size: 22px;
+    color: #403e3e;
+}
+.reviews .reviews_slide .col-md-8 p{
+	margin: 7px 0px;
+    font-size: 17px;
+    color: #827a7a;
+}
+
+.reviews .reviewsimg img{
+	display: block;
+    width: 88%;
+    margin: 0 17px	
+}
+.reviews .reviewsimg {
+	padding: 2rem;	
+}
